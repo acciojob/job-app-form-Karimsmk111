@@ -1,2 +1,44 @@
 
 /* Your CSS Code here. */
+
+    form {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    div {
+        margin-bottom: 10px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"],
+    input[type="url"],
+    select {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #45a049;
+    }
